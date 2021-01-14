@@ -4,4 +4,4 @@ docker build --tag discbot .
 
 Running the bot:
 
-docker run -it --rm --name mybot -eTOKEN=somethingsecret discbot
+docker run -it --rm --name mybot -e "TOKEN=somethingsecret" discbot
